@@ -1,23 +1,5 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#datosPersonales{
-    background-color: darkkhaki;
-}
-
-#cv{
-    text-align: center;
-    margin: 1em auto;
-}
-.foto{
-    text-align: left;
-}
-
-#formacion{
-
-}
-
-#experiencia{
-
+.contenedor-derecho{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
 }
