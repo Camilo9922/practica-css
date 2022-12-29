@@ -1,9 +1,30 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .contenedor-derecho{
-    display: flex;
-    justify-content: left;
-    align-items: baseline;
+    align-items:baseline;
+    float: left;
+    background-color: slategrey;
+    display: grid;
+    display: flexbox;
 }
 
-.foto{
-    
+img{
+    align-items: center;
+}
+
+#datosPer{
+    float: left;
+}
+#CV{
+    text-align: center;
+    float: inline-start;
+}
+
+#formacion{
+    display: grid;
+}
+
+#experiencia{
+    display: grid;
 }
